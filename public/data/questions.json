@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the output of the following code snippet?\n\n```console.log(3 + 2 + '7');```",
+    "answers": ["57", "12", "37", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is not a loop structure in JavaScript?",
+    "answers": ["for", "while", "do-while", "until"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 3,
+    "question": "What is the output of the following code snippet?\n\n```var x = 1;\nfunction foo() {\n  console.log(x);\n  var x = 2;\n}\nfoo();```",
+    "answers": ["1", "2", "undefined", "ReferenceError"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "question": "What does the 'typeof' operator do in JavaScript?",
+    "answers": ["Returns the type of a variable", "Returns the value of a variable", "Returns the length of a string", "Returns the index of a substring"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "What is the output of the following code snippet?\n\n```var a = [1, 2, 3];\na[10] = 10;\nconsole.log(a.length);```",
+    "answers": ["3", "10", "11", "undefined"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 6,
+    "question": "What is the output of the following code snippet?\n\n```console.log(typeof null);```",
+    "answers": ["null", "object", "undefined", "string"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between 'let' and 'var' in JavaScript?",
+    "answers": ["'let' is block-scoped, while 'var' is function-scoped", "'let' is function-scoped, while 'var' is block-scoped", "'let' is used for global variables, while 'var' is used for local variables", "There is no difference - they can be used interchangeably"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "What is the output of the following code snippet?\n\n```console.log(+'3' + 4);```",
+    "answers": ["7", "34", "NaN", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "What is the output of the following code snippet?\n\n```console.log([1, 2, 3] + [4, 5, 6]);```",
+    "answers": ["1, 2, 34, 5, 6", "10", "123456", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+    "answers": ["To handle errors that occur in the try block", "To prevent the try block from executing", "To run a piece of code repeatedly until a condition is met", "To define a new function"],
+    "correctAnswer": 0
+  }
+]
