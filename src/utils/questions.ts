@@ -20,7 +20,7 @@ export const useQuestions = create<State>((set, get) => {
     loading: false,
 
     fetchQuestions: async (limit: number) => {
-      const response = await fetch("http://localhost:5173/data/questions.json");
+      const response = await fetch("/data/questions.json");
       const data: Question[] = await response.json();
 
       const questions = data.sort(() => Math.random() - 0.5).slice(0, limit);
