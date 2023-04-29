@@ -9,3 +9,9 @@ interface Question {
   userSelectedAnswer?: number;
   isCorrectUserAnswer?: boolean;
 }
+
+interface QuestionOptionsProps {
+  answer: string;
+  answerIndex: number;
+  info: Question;
+}

@@ -1,7 +1,7 @@
 import JavascriptLogo from "./components/Icons/JavascriptLogo";
 import {useQuestions} from "./utils/questions";
-import Question from "./components/Question";
 import StartGame from "./components/StartGame";
+import Game from "./components/Game";
 
 function App() {
   const {questions, currentQuestion} = useQuestions();
@@ -17,7 +17,7 @@ function App() {
         </div>
         <article className="mt-16">
           {!questions.length && <StartGame />}
-          {questions.length > 0 && <Question info={question} />}
+          {questions.length > 0 && <Game info={question} />}
         </article>
       </header>
     </div>
