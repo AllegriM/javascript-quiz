@@ -9,13 +9,13 @@ function App() {
   const question = questions[currentQuestion];
 
   return (
-    <div className="">
-      <header className="flex flex-col justify-center items-center pt-6">
+    <div className="h-screen">
+      <header className="flex flex-col justify-center items-center pt-6 h-full">
         <div className="flex gap-5 items-center">
           <JavascriptLogo height={60} width={60} />
           <h1 className="text-4xl font-medium">Javascript Quiz</h1>
         </div>
-        <article className="mt-16">
+        <article className="mt-16 h-[354px]">
           {!questions.length && <StartGame />}
           {questions.length > 0 && <Game info={question} />}
         </article>
